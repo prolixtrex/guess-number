@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>guess the number game</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<main>
+			<div class="container">
+				<section class="upper">
+					<h2>GUESS THE GENERATED NUMBER</h2>
+					<div class="results">
+						<div class="body">
+							<p>Random Number:  </p><div id="randomNum"></div>
+						</div>
+						<div class="body">
+							<p>Matched Digits:  </p><div id="matched"></div>
+							<p style="margin-left: 20px;">No. of Matches:  </p><div id="correct"></div>
+						</div>
+					</div>
+				</section>
+				<section class="lower">
+					<form>
+						<p style="text-align: center; font-size: 30px;">Enter your numbers and click submit</p>
+						<input type="text" id="guessNum" name="">
+						<input type="submit" name="submit" value="Sumbit" onclick="random(event);">
+					</form>
+				</section>
+			</div>
+		</main>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
