@@ -10,8 +10,8 @@ function random(event) {
 	if (!guessNum) {
 		alert("Input some digits");
 		return false;
-	} else if (guessNum.length > 4) {
-		alert("Digits can not be more than 4");
+	} else if (guessNum.length > 3) {
+		alert("Digits can not be more than 3");
 	} else {
 		let numbers = [0,1,2,3,4,5,6,7,8,9];
 		for (var i = numbers.length - 1; i > 0; i--) {
